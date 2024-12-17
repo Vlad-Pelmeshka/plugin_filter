@@ -379,6 +379,16 @@ class ItemsManager
         $queriedProducts = $productQuery->getProductIdsByMainQuery(array_keys($taxonomyItems));
         $termProducts    = $productQuery->getTermTaxonomyProductIds($termTaxonomyIds);
 
+        if(function_exists('get_brand_model_ids') && function_exists('get_product_ids_with_null')){
+
+            $all_products = get_product_ids_with_null();
+            // var_dump($all_products)
+            $brand_model_ids = get_brand_model_ids();
+            foreach($brand_model_ids as $brand_model_id){
+                $termProducts[$brand_model_id] = $all_products;
+            }
+        }
+
         foreach ($taxonomyItems as $item) {
             $this->setTermProducts($item->getTerms(), $termProducts);
         }

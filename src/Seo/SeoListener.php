@@ -189,7 +189,8 @@ class SeoListener
                 $path = self::getNopagingUrl();
             }
 
-            $rule = $this->ruleByPath($path);
+            global $original_REQUEST_attrubutes;
+            $rule = $this->ruleByPath($original_REQUEST_attrubutes['original']);
 
             if (!$rule && !empty($this->settings['use_default_settings'])) {
                 $rule = $this->settings;
@@ -224,7 +225,10 @@ class SeoListener
 
         //meta descriptions
         add_action('wp_head', array($this, 'addMetaDescription'), 1);
-        add_filter('wpseo_metadesc', array($this, 'addMetaDescriptionYoast'));
+        add_filter('wpseo_title', array($this, 'addMetaDescriptionYoast'), 10000);
+        add_filter('wpseo_opengraph_title', array($this, 'addMetaDescriptionYoast'), 10000);
+        add_filter('wpseo_metadesc', array($this, 'addMetaDescriptionYoast'), 10000);
+        add_filter('wpseo_opengraph_desc', array($this, 'addMetaDescriptionYoast'), 10000);
         add_filter('rank_math/frontend/description', array($this, 'addMetaDescriptionRankMath'));
 
         remove_action('woocommerce_archive_description', 'woocommerce_taxonomy_archive_description', 10);

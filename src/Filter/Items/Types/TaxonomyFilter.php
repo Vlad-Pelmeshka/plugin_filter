@@ -245,6 +245,7 @@ class TaxonomyFilter extends BaseFilter
                     $active[] = array(
                         'title' => $term->name,
                         'link' => $term->link,
+                        'term_id' => $term->term_id
                     );
                 }
             }

@@ -99,7 +99,7 @@ class SeoModel extends Query
     public function save(array $data, $validate = true, $update = false)
     {
         if ($validate) {
-            $data = $this->validate($data, ! $update);
+            // $data = $this->validate($data, ! $update);
 
             if (null === $data) {
                 return null;
