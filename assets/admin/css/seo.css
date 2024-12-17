@@ -1,0 +1,78 @@
+/*Seo rules page wrapper*/
+.pf-wrap-flex {
+    padding-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .pf-wrap-flex {
+        display: flex;
+    }
+
+    .pf-wrap-flex__col {
+        width: 50%;
+    }
+}
+
+.premmerce-filter-form .form-field .wp-editor-area {
+    border: none;
+}
+.premmerce-filter-form input[type="text"],.premmerce-filter-form textarea {
+    width: 100%;
+}
+
+.pf-rules-table .manage-column.column-label {
+    width: 55%;
+}
+
+.rule-term-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.rule-term-table select {
+    width: 100%;
+}
+
+.rule-term-table th,
+.rule-term-table td {
+    width: 42%;
+    vertical-align: middle;
+}
+
+.rule-term-table th:last-child,
+.rule-term-table td:last-child {
+    width: 8%;
+}
+
+.remove-icon {
+    cursor: pointer;
+}
+
+.rule-edit-visit {
+    float: right;
+}
+
+.generation-taxonomy__select-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar__text {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.premmerce-flex-form-fields {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.premmerce-flex-form-field {
+    flex: 0 0 50px;
+    margin-right: 20px
+}
+
+.premmerce-filter-bulk-taxonomy {
+    height: 40px;
+}

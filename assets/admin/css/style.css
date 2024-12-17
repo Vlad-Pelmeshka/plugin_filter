@@ -1,0 +1,215 @@
+.sortable-handle {
+    cursor: move;
+}
+
+.premmerce-filter-table__align-center {
+    text-align: center !important;
+    position: relative;
+}
+
+.premmerce-filter-table__capitalize {
+    text-transform: capitalize;
+}
+
+.premmerce-filter-table__align-right {
+    text-align: right !important;
+}
+
+.click-action-span {
+    cursor: pointer;
+}
+
+.filter-settings-input {
+    width: 100%;
+}
+
+.filter-settings-select {
+    min-width: 200px;
+}
+
+.pc-colors-list,
+.pc-images-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pc-colors-list__item,
+.pc-images-list__item {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    box-sizing: content-box;
+    width: calc(50% - 15px);
+}
+
+.pc-images-list__item .term-image {
+    background: #f6f7f7;
+    border: 1px solid #2271b1;
+    border-right: 0;
+    display: inline-block;
+    height: 28px;
+    margin-right: 0px;
+    position: relative;
+    width: 28px;
+}
+
+.pc-images-list__item .term-name,
+.pc-colors-list__item .term-name {
+    display: block;
+    width: 100%;
+}
+
+.pc-images-list__item .term-image img {
+    height: inherit;
+    width: inherit;
+}
+
+.term-image-picker {
+    border-radius: 0 !important;
+    padding: 0 2.5px !important;
+    width: 88px;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.term-image-picker :focus,
+.term-image-picker :hover,
+.term-image-picker :active {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.term-image-picker__rmv {
+    display: none;
+    padding: 2.5px;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.pc-images-list__item .term-image:hover .term-image-picker__rmv {
+    display: block;
+}
+
+.pc-filter-loader {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.premmerce-filter-table__align-center .pc-filter-loader {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translate(20px);
+}
+
+.premmerce-filter-swap-container {
+    margin: 10px 0;
+    padding: 20px 0;
+    font-size: 15px;
+    display: none;
+    text-align: center;
+    background-color: #f4f4f4;
+    border: 1px solid #d2d2d2;
+}
+
+.premmerce-filter-swap-hover {
+    border: 1px solid #a8a8a8;
+    background-color: white;
+}
+
+.premmerce-filter-pagination a,
+.premmerce-filter-pagination .current {
+    display: inline-block;
+    padding: 4px 5px 6px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.premmerce-filter-pagination a {
+    min-width: 17px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+}
+
+.premmerce-upgrate-to-premium-button {
+    background-color: #2271b1;
+    border-color: #2271b1;
+    color: #ffffff;
+    float: right;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.premmerce-upgrate-to-premium-button:hover,
+.premmerce-upgrate-to-premium-button:active,
+.premmerce-upgrate-to-premium-button:focus {
+    background-color: #2271b1;
+    border-color: #2271b1;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+
+.premmerce-help-text {
+    font-size: 12px !important;
+    color: #767b80;
+}
+
+.premmerce-premium-blue {
+    color: #2271b1;
+}
+
+button.premmerce-shortcode-instruction {
+    margin: 3px 0 !important;
+}
+
+#shortcode-info-dialog {
+    display: none;
+    overflow: auto;
+}
+
+table.premmerce-shortcodes-attr-desc {
+    width: 100%;
+}
+
+.premmerce-shortcodes-attr-desc td {
+    line-height: 21px;
+    padding: 5px;
+}
+
+table.premmerce-shortcodes-attr-desc,
+.premmerce-shortcodes-attr-desc th,
+.premmerce-shortcodes-attr-desc td {
+    border: 1px solid #c7c7c7;
+    border-spacing: 0;
+}
+
+.premmerce-shortcode-example {
+    background: #efefef;
+    line-height: 21px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.premmerce-shortcode-all-attr {
+    font-size: 10px;
+    font-weight: normal;
+    padding: 3px 5px;
+}
+
+td.premmerce-shortcode-attr {
+    background: #efefef;
+}
+
+.premmerce_settings_premium_only {
+    color: #9ea6aa;
+}
+

@@ -1,0 +1,97 @@
+.filter {
+
+}
+
+.filter .filter__item {
+    border: none;
+    padding: 0;
+}
+
+.filter__checkgroup-body {
+    width: 100%;
+}
+
+.filter__checkgroup-count {
+    display: inline-block;
+    background-color: rgba(84,84,84,0.05);
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 10px;
+    text-align: center;
+    min-width: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.filter__checkgroup-title,
+.filter__checkgroup-count {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.filter__checkgroup-count::after,
+.filter__checkgroup-count::before {
+    content: none;
+}
+
+.filter__checkgroup-check {
+    border-radius: 2px;
+    border-color: rgba(0,0,0,0.15);
+}
+
+.filter__properties-item--active .filter__checkgroup-count {
+    color: #fff;
+}
+
+.filter .filter__checkgroup-control:checked + .filter__checkgroup-check:before {
+    background-color: transparent;
+    text-align: center;
+    content: '\f00c';
+    color: #fff;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 10px;
+    line-height: 10px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.filter .filter__properties-item:not(:last-child){
+    margin-bottom: 7px;
+}
+
+.filter .filter__slider-control {
+    width: 100%;
+    max-width: initial!important;
+}
+
+.pc-range-slider__control .ui-slider-handle {
+    width: 20px!important;
+    border-radius: 50%;
+}
+
+.pc-range-slider__control .ui-slider-handle:last-of-type {
+    margin-left: -20px!important;
+}
+
+.filter__properties-item--active:hover {}
+
+
+.pc-active-filter .pc-active-filter__item-delete {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 15px;
+}
+
+.filter .theme-select,
+[data-filter-control-select] {
+    font-size: 13px!important;
+}
+
+.premmerce-active-filters-widget-wrapper,
+.widget_premmerce_filter_filter_widget  {
+    margin-bottom: 40px;
+}

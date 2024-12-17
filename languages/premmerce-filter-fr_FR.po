@@ -1,0 +1,1183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-09-02 12:03+0300\n"
+"PO-Revision-Date: 2021-09-02 12:03+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: build\n"
+"X-Poedit-SearchPathExcluded-1: freemius\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+
+#: src/Admin/Admin.php:108
+msgid "Please enable permalinks to use SEO rules"
+msgstr ""
+"Veuillez activer les permaliens pour utiliser les règles de référencement"
+
+#: src/Admin/Admin.php:140 src/Admin/Admin.php:141
+msgid "Product filter"
+msgstr "Filtre à produits"
+
+#: src/Admin/Admin.php:151
+msgid "Number of filters per page"
+msgstr "Nombre de filtres par page"
+
+#: src/Admin/Admin.php:181
+#, php-format
+msgid ""
+"Please rate our Premmerce Product Filter for WooCommerce on <a href=\"%1$s\" "
+"%2$s>WordPress.org</a><br/>Thank you from the Premmerce team!"
+msgstr ""
+"Veuillez évaluer notre filtre de produits Premmerce pour WooCommerce sur <a "
+"href=\"%1$s\" %2$s>WordPress.org</a><br/>Merci de la part de l'équipe "
+"Premmerce !"
+
+#: src/Admin/Admin.php:263
+msgid "Account"
+msgstr "Compte"
+
+#: src/Admin/Admin.php:278
+msgid "Contact Us"
+msgstr "Nous contacter"
+
+#: src/Admin/Tabs/Attributes.php:91 views/admin/macros.php:13
+#: views/admin/tabs/attributes.php:21
+msgid "Attributes"
+msgstr "Attributs"
+
+#: src/Admin/Tabs/Attributes.php:236 src/Admin/Tabs/Taxonomy.php:70
+#: views/admin/tabs/attributes.php:135 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:52
+msgid "Display"
+msgstr "Afficher"
+
+#: src/Admin/Tabs/Attributes.php:240 src/Admin/Tabs/Taxonomy.php:71
+#: views/admin/tabs/attributes.php:134 views/admin/tabs/brands.php:45
+#: views/admin/tabs/taxonomy.php:52
+msgid "Hide"
+msgstr "Cacher"
+
+#: src/Admin/Tabs/Attributes.php:247
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: src/Admin/Tabs/Attributes.php:251
+msgid "Radio"
+msgstr "Radio"
+
+#: src/Admin/Tabs/Attributes.php:255
+msgid "Select"
+msgstr "Sélectionnez"
+
+#: src/Admin/Tabs/Attributes.php:265 src/Admin/Tabs/SeoSettings.php:46
+#: src/Widget/FilterWidget.php:153
+msgid "Default"
+msgstr "Défaut"
+
+#: src/Admin/Tabs/Attributes.php:269
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: src/Admin/Tabs/Attributes.php:273
+msgid "Scroll"
+msgstr "Défilement"
+
+#: src/Admin/Tabs/Attributes.php:277
+msgid "Scroll + Dropdown"
+msgstr "Défilement + Dropdown"
+
+#: src/Admin/Tabs/Attributes.php:281
+msgid "Hoverable Dropdown"
+msgstr "Dropdown survolable"
+
+#: src/Admin/Tabs/Attributes.php:288 src/Admin/Tabs/Taxonomy.php:69
+msgid "Bulk Actions"
+msgstr "Actions en vrac"
+
+#: src/Admin/Tabs/Attributes.php:289 views/admin/tabs/attributes.php:46
+#: views/admin/tabs/brands.php:26 views/admin/tabs/taxonomy.php:33
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: src/Admin/Tabs/Attributes.php:290 views/admin/tabs/attributes.php:42
+msgid "Field type"
+msgstr "Type de champ"
+
+#: src/Admin/Tabs/Attributes.php:291 views/admin/tabs/attributes.php:43
+msgid "Display as"
+msgstr "Afficher comme"
+
+#: src/Admin/Tabs/Attributes.php:424 src/Admin/Tabs/Attributes.php:448
+#: src/Admin/Tabs/Base/BaseSettings.php:86 views/admin/tabs/attributes.php:67
+msgid "Premium"
+msgstr "Prime"
+
+#: src/Admin/Tabs/Base/BaseSettings.php:99 src/Widget/FilterWidget.php:150
+msgid " (Premium)"
+msgstr " (Premium)"
+
+#: src/Admin/Tabs/Base/BaseSettings.php:210
+msgid "premium"
+msgstr "prime"
+
+#: src/Admin/Tabs/BundleAndSave.php:91
+msgid "Bundle & Save"
+msgstr "Regroupement et économies"
+
+#: src/Admin/Tabs/Cache.php:68 views/admin/tabs/cache.php:9
+msgid "Cache"
+msgstr "Cache"
+
+#: src/Admin/Tabs/PermalinkSettings.php:54
+#: src/Admin/Tabs/PermalinkSettings.php:145
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: src/Admin/Tabs/PermalinkSettings.php:59
+msgid "Use permalinks"
+msgstr "Utilisez les permaliens"
+
+#: src/Admin/Tabs/PermalinkSettings.php:64
+msgid ""
+"Discourage search engines from indexing pages created by the filter, except "
+"for pages with SEO rules."
+msgstr ""
+"Découragez les moteurs de recherche d'indexer les pages créées par le "
+"filtre, à l'exception des pages comportant des règles de référencement."
+
+#: src/Admin/Tabs/PermalinkSettings.php:65
+msgid ""
+"Enable this rule, if you want to hide this page from Google Search Index."
+msgstr ""
+"Activez cette règle si vous souhaitez masquer cette page dans l'index de "
+"recherche Google."
+
+#: src/Admin/Tabs/PermalinkSettings.php:71
+msgid "Attribute prefix"
+msgstr "Préfixe de l'attribut"
+
+#: src/Admin/Tabs/PermalinkSettings.php:77
+msgid "Value separator"
+msgstr "Séparateur de valeurs"
+
+#: src/Admin/Tabs/PermalinkSettings.php:92
+#, php-format
+msgid "%s prefix"
+msgstr "Préfixe %s"
+
+#: src/Admin/Tabs/PermalinkSettings.php:130
+msgid "Prefixes should be unique"
+msgstr "Les préfixes doivent être uniques"
+
+#: src/Admin/Tabs/SeoRules.php:80 src/Admin/Tabs/SeoRules.php:101
+msgid "Rule does not contains products"
+msgstr "La règle ne contient pas de produits"
+
+#: src/Admin/Tabs/SeoRules.php:84
+msgid "Rule created"
+msgstr "Règle créée"
+
+#: src/Admin/Tabs/SeoRules.php:105
+msgid "Rule updated"
+msgstr "Règle mise à jour"
+
+#: src/Admin/Tabs/SeoRules.php:176
+msgid "Generation completed"
+msgstr "Génération terminée"
+
+#: src/Admin/Tabs/SeoRules.php:210
+msgid "Rules are updated"
+msgstr "Les règles sont mises à jour"
+
+#: src/Admin/Tabs/SeoRules.php:364
+msgid "SEO Rules"
+msgstr "Règles de référencement"
+
+#: src/Admin/Tabs/SeoSettings.php:50
+msgid "Use default seo settings"
+msgstr "Utiliser les paramètres de référencement par défaut"
+
+#: src/Admin/Tabs/SeoSettings.php:55
+msgid "Default Metadata"
+msgstr "Métadonnées par défaut"
+
+#: src/Admin/Tabs/SeoSettings.php:58
+msgid ""
+"This settings are used to setup default meta data for filter pages that are "
+"not defined in rules"
+msgstr ""
+"Ces paramètres sont utilisés pour définir les métadonnées par défaut pour "
+"les pages de filtre qui ne sont pas définies dans les règles"
+
+#: src/Admin/Tabs/SeoSettings.php:66 views/admin/macros.php:97
+msgid "H1"
+msgstr "H1"
+
+#: src/Admin/Tabs/SeoSettings.php:71
+msgid "Document title"
+msgstr "Titre du document"
+
+#: src/Admin/Tabs/SeoSettings.php:76 views/admin/macros.php:111
+msgid "Meta description"
+msgstr "Meta description"
+
+#: src/Admin/Tabs/SeoSettings.php:81 views/admin/macros.php:12
+msgid "Category description"
+msgstr "Description de la catégorie"
+
+#: src/Admin/Tabs/SeoSettings.php:109
+msgid "SEO Settings"
+msgstr "Paramètres de référencement"
+
+#: src/Admin/Tabs/Settings.php:38
+msgid "Behavior"
+msgstr "Comportement"
+
+#: src/Admin/Tabs/Settings.php:43
+msgid "Hide empty terms"
+msgstr "Cacher les termes vides"
+
+#: src/Admin/Tabs/Settings.php:48
+msgid "Show price filter"
+msgstr "Afficher le filtre des prix"
+
+#: src/Admin/Tabs/Settings.php:53
+#, php-format
+msgid "Show \"%s\" button"
+msgstr "Afficher le bouton \"%s\""
+
+#: src/Admin/Tabs/Settings.php:53 views/frontend/active_filters.php:51
+#: views/frontend/active_filters.php:55
+msgid "Reset filter"
+msgstr "Réinitialiser le filtre"
+
+#: src/Admin/Tabs/Settings.php:58
+msgid "Enable category hierarchy"
+msgstr "Activer la hiérarchie des catégories"
+
+#: src/Admin/Tabs/Settings.php:63
+msgid "Expand hierarchy by default"
+msgstr "Développer la hiérarchie par défaut"
+
+#: src/Admin/Tabs/Settings.php:68
+msgid "Show filter button"
+msgstr "Bouton \"Afficher le filtre"
+
+#: src/Admin/Tabs/Settings.php:73
+msgid "Show \"On sale\""
+msgstr "Affichez \"En vente\"."
+
+#: src/Admin/Tabs/Settings.php:78
+msgid "Show \"In stock\""
+msgstr "Afficher \"En stock"
+
+#: src/Admin/Tabs/Settings.php:83
+msgid "Show rating filter"
+msgstr "Afficher le filtre d'évaluation"
+
+#: src/Admin/Tabs/Settings.php:88
+msgid "Show filter on pages"
+msgstr "Afficher le filtre sur les pages"
+
+#: src/Admin/Tabs/Settings.php:92
+msgid "Product category"
+msgstr "Catégorie de produit"
+
+#: src/Admin/Tabs/Settings.php:96
+msgid "Tag"
+msgstr "Étiquette"
+
+#: src/Admin/Tabs/Settings.php:100 views/admin/tabs/brands.php:25
+msgid "Brand"
+msgstr "Marque"
+
+#: src/Admin/Tabs/Settings.php:104 views/admin/tabs/seo.php:41
+msgid "Search"
+msgstr "Recherche"
+
+#: src/Admin/Tabs/Settings.php:108
+msgid "Store"
+msgstr "Magasin"
+
+#: src/Admin/Tabs/Settings.php:112 views/admin/tabs/attributes.php:44
+msgid "Attribute"
+msgstr "Attribut"
+
+#: src/Admin/Tabs/Settings.php:118
+msgid "AJAX"
+msgstr "AJAX"
+
+#: src/Admin/Tabs/Settings.php:122
+msgid "Load deferred"
+msgstr "Chargement différé"
+
+#: src/Admin/Tabs/Settings.php:127
+msgid "Styles"
+msgstr "Styles"
+
+#: src/Admin/Tabs/Settings.php:130
+msgid "Custom css"
+msgstr "Css personnalisé"
+
+#: src/Admin/Tabs/Settings.php:141
+msgid "Use ajax"
+msgstr "Utiliser ajax"
+
+#: src/Admin/Tabs/Settings.php:145
+msgid "Shortcodes instruction"
+msgstr "Instructions sur les codes courts"
+
+#: src/Admin/Tabs/Settings.php:155
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: src/Admin/Tabs/Settings.php:158
+msgid "Active Shortcodes"
+msgstr "Shortcodes actifs"
+
+#: src/Admin/Tabs/Settings.php:161
+msgid ""
+"<b>[premmerce_filter]</b> - for showing main <b>Premmerce Filter</b> "
+"(Product attributes filter)"
+msgstr ""
+"<b>[premmerce_active_filters]</b> - pour afficher les principaux <b>filtres "
+"actifs de Premmerce</b> (filtres actifs des attributs du produit)."
+
+#: src/Admin/Tabs/Settings.php:162
+msgid ""
+"<b>[premmerce_active_filters]</b> - for showing main <b>Premmerce active "
+"filters</b> (Product attributes active filters)"
+msgstr ""
+"<b>[premmerce_active_filters]</b> - pour afficher les principaux <b>filtres "
+"actifs de Premmerce</b> (filtres actifs des attributs du produit)."
+
+#: src/Admin/Tabs/Settings.php:163
+msgid ""
+"<small>Shortcodes are working only on WooCommerce pages (shop, tags etc)</"
+"small>"
+msgstr ""
+"<small>Les shortcodes ne fonctionnent que sur les pages WooCommerce "
+"(boutique, tags etc)</small>"
+
+#: src/Admin/Tabs/Settings.php:196 views/admin/seo/generate-rules.php:44
+#: views/admin/seo/generate-rules.php:97
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: src/Admin/Tabs/Settings.php:199
+msgid "Use taxonomies"
+msgstr "Utiliser des taxonomies"
+
+#: src/Admin/Tabs/Settings.php:203
+msgid "Choose taxonomies used by filter."
+msgstr "Choisir les taxonomies utilisées par le filtre."
+
+#: src/Admin/Tabs/Settings.php:204
+msgid "The use of custom taxonomies is only available in the premium version."
+msgstr ""
+"L'utilisation de taxonomies personnalisées n'est disponible que dans la "
+"version premium."
+
+#: src/Admin/Tabs/Settings.php:212
+msgid "Woocommerce content"
+msgstr "Contenu de Woocommerce"
+
+#: src/Admin/Tabs/Settings.php:213
+msgid "Product archive"
+msgstr "Archives des produits"
+
+#: src/Admin/Tabs/Settings.php:223
+msgid "Ajax Strategy"
+msgstr "Stratégie Ajax"
+
+#: src/Admin/Tabs/Settings.php:226
+msgid ""
+"Choose the strategy for replacing content during ajax product filtering."
+msgstr ""
+"Choisissez la stratégie de remplacement du contenu lors du filtrage des "
+"produits par ajax."
+
+#: src/Admin/Tabs/Settings.php:230
+msgid ""
+"<b>Woocommerce content</b> strategy - has better performance and supported "
+"most of woocommerce themes, where archive page has default woocommerce "
+"layout."
+msgstr ""
+"<b>Stratégie de contenu woocommerce</b> - a de meilleures performances et "
+"supporte la plupart des thèmes woocommerce, où la page d'archive a une mise "
+"en page woocommerce par défaut."
+
+#: src/Admin/Tabs/Settings.php:234
+msgid ""
+"<b>Product archive</b> strategy - replaces all content placed in product "
+"archive template except footer and header."
+msgstr ""
+"<b>Stratégie des archives de produits</b> - remplace tout le contenu placé "
+"dans le modèle des archives de produits, à l'exception du pied de page et de "
+"l'en-tête."
+
+#: src/Admin/Tabs/Settings.php:249
+msgid "Settings"
+msgstr "Paramètres"
+
+#: src/Filter/Items/Types/InStockFilter.php:145
+msgid "In stock"
+msgstr "En stock"
+
+#: src/Filter/Items/Types/InStockFilter.php:147
+msgid "Out of stock"
+msgstr "En rupture de stock"
+
+#: src/Filter/Items/Types/InStockFilter.php:149
+msgid "On Back Order"
+msgstr "En attente de commande"
+
+#: src/Filter/Items/Types/OnSaleFilter.php:243
+msgid "On sale"
+msgstr "En vente"
+
+#: src/Filter/Items/Types/PriceFilter.php:49
+msgid "Filter by price"
+msgstr "Filtrer par prix"
+
+#: src/Filter/Items/Types/PriceFilter.php:82
+#, php-format
+msgid "Min %s"
+msgstr "Min %s"
+
+#: src/Filter/Items/Types/PriceFilter.php:88
+#, php-format
+msgid "Max %s"
+msgstr "Max %s"
+
+#: src/Filter/Items/Types/SliderFilter.php:69
+#, php-format
+msgid "%s from %s"
+msgstr "%s de %s"
+
+#: src/Filter/Items/Types/SliderFilter.php:76
+#, php-format
+msgid "%s to %s"
+msgstr "de %s à %s"
+
+#: src/FilterPlugin.php:168
+#, php-format
+msgid "The %s plugin requires %s plugin to be active!"
+msgstr "Le plugin %s nécessite que le plugin %s soit actif !"
+
+#: src/Seo/RulesTable.php:136 views/admin/seo/form.php:42
+msgid "Category"
+msgstr "Catégorie"
+
+#: src/Seo/RulesTable.php:137
+msgid "Label"
+msgstr "Étiquette"
+
+#: src/Seo/RulesTable.php:138
+msgid "Discourage search engines"
+msgstr "Décourager les moteurs de recherche"
+
+#: src/Seo/RulesTable.php:139
+msgid "Enabled"
+msgstr "Activé"
+
+#: src/Seo/RulesTable.php:152 views/admin/seo/table/column-h1.php:32
+msgid "Delete"
+msgstr "Supprimer"
+
+#: src/Seo/RulesTable.php:153 views/admin/macros.php:150
+msgid "Enable"
+msgstr "Activer"
+
+#: src/Seo/RulesTable.php:154
+msgid "Disable"
+msgstr "Désactiver"
+
+#: src/Seo/RulesTable.php:222
+msgid "No rules found."
+msgstr "Aucune règle trouvée."
+
+#: src/Seo/RulesTable.php:283 views/frontend/filter.php:99
+msgid "Filter"
+msgstr "Filtre"
+
+#: src/Seo/RulesTable.php:305
+msgid "Filter by category"
+msgstr "Filtrer par catégorie"
+
+#: src/Seo/SeoModel.php:210
+msgid "The same rule already exists"
+msgstr "La même règle existe déjà"
+
+#: src/Seo/SeoModel.php:214
+msgid "Terms are required"
+msgstr "Les conditions sont requises"
+
+#: src/Seo/SeoModel.php:217
+msgid "Category is required"
+msgstr "La catégorie est requise"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:93
+msgid ""
+"Filter style. Can be <code>default</code>, <code>premmerce</code>, "
+"<code>custom</code>. "
+msgstr ""
+"Style de filtre. Peut être <code>default</code>, <code>premerce</code>, "
+"<code>custom</code>. "
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:94
+msgid ""
+"All other attributes you can use after adding <code>style=\"custom\"</code> "
+"attribute."
+msgstr ""
+"Tous les autres attributs peuvent être utilisés après avoir ajouté "
+"l'attribut <code>style=\"custom\"</code>."
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:98
+msgid "Filter Background color"
+msgstr "Couleur de fond du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:102
+msgid "Filter Border"
+msgstr "Bordure de filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:106
+msgid "Filter Border Color"
+msgstr "Couleur de la bordure du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:110
+msgid "Make filter title bold"
+msgstr "Mettre le titre du filtre en gras"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:114
+msgid "Make title text <code>uppercase</code> or <code>default</code>"
+msgstr ""
+"Rendre le texte du titre <code>majuscule</code> ou <code>par défaut</code>"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:118
+msgid "Filter Price Input Background"
+msgstr "Fond d'entrée du prix du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:122
+msgid "Filter Price Input Color"
+msgstr "Prix du filtre Couleur d'entrée"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:126
+msgid "Filter Price Slider Range Color"
+msgstr "Couleur de la gamme de prix du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:130
+msgid "Filter Price Slider Handle Color"
+msgstr "Couleur de la poignée du curseur de prix du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:134
+msgid "Choose Checkbox Appearance: "
+msgstr "Choisissez Checkbox Appearance: "
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:141
+msgid "Titles Font Size"
+msgstr "Taille de la police des titres"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:145
+msgid "Titles Color"
+msgstr "Couleur des titres"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:149
+msgid "Terms Titles Font Size"
+msgstr "Taille de la police des titres des termes"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:153
+msgid "Terms Titles Color"
+msgstr "Termes Titres Couleur"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:157
+msgid "Checkbox/Radio Color"
+msgstr "Couleur de la case à cocher/de la radio"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:161
+msgid "Checkbox/Radio Border Color"
+msgstr "Couleur de la bordure des cases à cocher/radios"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:166
+msgid "Filter Shortcode"
+msgstr "Shortcode du filtre"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:180
+msgid "Filter Shortcode with all attributes"
+msgstr "Shortcode de filtre avec tous les attributs"
+
+#: src/Shortcodes/FilterWidgetShortcodes.php:188
+msgid "Filter Shortcode Attributes:"
+msgstr "Filtrer les attributs des shortcodes:"
+
+#: src/Widget/ActiveFilterWidget.php:18
+msgid "Premmerce active filters"
+msgstr "Filtres actifs de Premmerce"
+
+#: src/Widget/ActiveFilterWidget.php:20
+msgid "Product attributes active filters"
+msgstr "Attributs du produit - filtres actifs"
+
+#: src/Widget/ActiveFilterWidget.php:54
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Noté %s sur 5"
+
+#: src/Widget/FilterWidget.php:21
+msgid "Premmerce filter"
+msgstr "Filtre de Premmerce"
+
+#: src/Widget/FilterWidget.php:23
+msgid "Product attributes filter"
+msgstr "Filtre des attributs du produit"
+
+#: views/admin/filter-widget.php:17 views/admin/macros.php:104
+msgid "Title"
+msgstr "Titre"
+
+#: views/admin/filter-widget.php:32
+msgid "Main styles"
+msgstr "Principaux styles"
+
+#: views/admin/filter-widget.php:63
+msgid "Price filter styles"
+msgstr "Styles de filtres de prix"
+
+#: views/admin/filter-widget.php:89
+msgid "Filter titles and checkboxes styles"
+msgstr "Styles de titres de filtres et de cases à cocher"
+
+#: views/admin/macros.php:11
+msgid "Category name"
+msgstr "Nom de la catégorie"
+
+#: views/admin/macros.php:14 views/admin/tabs/brands.php:11
+msgid "Brands"
+msgstr "Marques"
+
+#: views/admin/macros.php:15
+msgid "Min price"
+msgstr "Prix minimum"
+
+#: views/admin/macros.php:16
+msgid "Max price"
+msgstr "Prix maximum"
+
+#: views/admin/macros.php:17
+msgid "Number of products"
+msgstr "Nombre de produits"
+
+#: views/admin/macros.php:29
+msgid "Add attribute name"
+msgstr "Ajouter le nom de l'attribut"
+
+#: views/admin/macros.php:37
+msgid "Select «{{attribute}}» value"
+msgstr "Sélectionnez la valeur \"{{attribut}}\""
+
+#: views/admin/macros.php:53 views/admin/seo/generate-rules.php:50
+#: views/admin/seo/generate-rules.php:101
+msgid "Select taxonomy"
+msgstr "Sélectionner la taxonomie"
+
+#: views/admin/macros.php:62 views/admin/macros.php:68
+#: views/admin/seo/generate-rules.php:68 views/admin/seo/generate-rules.php:75
+#: views/admin/seo/generate-rules.php:122
+msgid "Select term"
+msgstr "Sélectionnez le terme"
+
+#: views/admin/macros.php:120
+msgid "Description"
+msgstr "Description"
+
+#: views/admin/macros.php:141
+#, php-format
+msgid "Discourage search engines from indexing this page%s"
+msgstr "Découragez les moteurs de recherche d'indexer cette page%s"
+
+#: views/admin/macros.php:144
+msgid ""
+"Enable this rule, if you want to hide this page from Google Search Index and "
+"from XML sitemap."
+msgstr ""
+"Activez cette règle si vous souhaitez masquer cette page de l'index de "
+"recherche Google et du sitemap XML."
+
+#: views/admin/macros.php:153
+msgid "Enable this rule."
+msgstr "Activez cette règle."
+
+#: views/admin/options.php:12
+msgid "Premmerce Product Filter for WooCommerce"
+msgstr "Premmerce Product Filter for WooCommerce"
+
+#: views/admin/options.php:26
+msgid "Upgrate to Premium"
+msgstr "Passer à la version Premium"
+
+#: views/admin/seo/form.php:25 views/admin/seo/form.php:78
+msgid "Add new rule"
+msgstr "Ajouter une nouvelle règle"
+
+#: views/admin/seo/form.php:29 views/admin/seo/generate-rules.php:15
+msgid "Back"
+msgstr "Dos"
+
+#: views/admin/seo/form.php:33
+msgid "Visit page"
+msgstr "Visitez la page"
+
+#: views/admin/seo/form.php:38 views/admin/seo/form.php:80
+msgid "Update rule"
+msgstr "Règle de mise à jour"
+
+#: views/admin/seo/form.php:49
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: views/admin/seo/form.php:50
+msgid "Term"
+msgstr "Terme"
+
+#: views/admin/seo/form.php:69
+msgid "Add"
+msgstr "Ajouter"
+
+#: views/admin/seo/generate-rules.php:27
+msgid "Generate rules"
+msgstr "Générer des règles"
+
+#: views/admin/seo/generate-rules.php:29
+msgid "Categories"
+msgstr "Catégories"
+
+#: views/admin/seo/generate-rules.php:32
+msgid "Select category"
+msgstr "Sélectionnez la catégorie"
+
+#: views/admin/seo/generate-rules.php:61 views/admin/seo/generate-rules.php:114
+#: views/admin/tabs/taxonomy.php:32
+msgid "Terms"
+msgstr "Conditions"
+
+#: views/admin/seo/generate-rules.php:82
+msgid "Add taxonomy"
+msgstr "Ajouter une taxonomie"
+
+#: views/admin/seo/generate-rules.php:87
+msgid "Generate"
+msgstr "Générer"
+
+#: views/admin/seo/generate-rules.php:119
+msgid "Select terms"
+msgstr "Sélectionnez les termes"
+
+#: views/admin/seo/table/column-h1.php:26
+msgid "Edit"
+msgstr "Modifier"
+
+#: views/admin/seo/table/column-h1.php:37
+msgid "View"
+msgstr "Voir"
+
+#: views/admin/tabs/actions.php:12
+msgid "Select bulk action"
+msgstr "Sélectionnez l'action de masse"
+
+#: views/admin/tabs/actions.php:31
+msgid "Apply"
+msgstr "Appliquer"
+
+#: views/admin/tabs/attributes.php:31 views/admin/tabs/taxonomy.php:20
+msgid "Move to previous page"
+msgstr "Aller à la page précédente"
+
+#: views/admin/tabs/attributes.php:107
+#, php-format
+msgid "Setup %ss"
+msgstr "Setup %ss"
+
+#: views/admin/tabs/attributes.php:161 views/admin/tabs/brands.php:56
+#: views/admin/tabs/taxonomy.php:63
+msgid "No items found"
+msgstr "Aucun élément trouvé"
+
+#: views/admin/tabs/attributes.php:170 views/admin/tabs/taxonomy.php:72
+msgid "Move to next page"
+msgstr "Passer à la page suivante"
+
+#: views/admin/tabs/attributes.php:187
+msgid "Save"
+msgstr "Sauvez"
+
+#: views/admin/tabs/bundle-and-save/faq.php:11
+msgid "How does the domain limit work?"
+msgstr "Comment fonctionne la limite de domaine ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:12
+msgid ""
+"Once you choose a plan, you get access to the products described in the "
+"package and a specific number of domain licenses. You can activate any of "
+"the premium products (themes or plugins) on the domains where you have an "
+"active license."
+msgstr ""
+"Une fois que vous avez choisi un plan, vous avez accès aux produits décrits "
+"dans le paquet et à un nombre spécifique de licences de domaine. Vous pouvez "
+"activer n'importe quel produit premium (thèmes ou plugins) sur les domaines "
+"pour lesquels vous disposez d'une licence active."
+
+#: views/admin/tabs/bundle-and-save/faq.php:15
+msgid "What will happen if I if I don’t renew my license in a year?"
+msgstr "Que se passera-t-il si je ne renouvelle pas ma licence dans un an ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:16
+msgid ""
+"Your domain license will become invalid in 12 months period. The product "
+"will continue to work.However, after your license expires, the access to "
+"security updates, support requests, and new features is discontinued until "
+"the new license is activated. For lifetime membership this is not the case, "
+"only for the annual plans."
+msgstr ""
+"Votre licence de domaine deviendra invalide dans une période de 12 mois. "
+"Cependant, après l'expiration de votre licence, l'accès aux mises à jour de "
+"sécurité, aux demandes d'assistance et aux nouvelles fonctionnalités est "
+"interrompu jusqu'à l'activation de la nouvelle licence. Ce n'est pas le cas "
+"pour l'adhésion à vie, mais seulement pour les plans annuels."
+
+#: views/admin/tabs/bundle-and-save/faq.php:19
+msgid "How often do I have to pay?"
+msgstr "À quelle fréquence dois-je payer ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:20
+msgid ""
+"With the annual membership, you will have to renew after the first year if "
+"you want to continue receiving security updates and support. The product "
+"will continue to work even if you cancel immediately, but you won’t get the "
+"updates and support after the license expires. You are free to upgrade/"
+"cancel anytime. Lifetime is a one-time payment, and as long as the product "
+"is maintained, you will get support and security updates."
+msgstr ""
+"Avec l'abonnement annuel, vous devrez renouveler votre abonnement après la "
+"première année si vous voulez continuer à recevoir les mises à jour de "
+"sécurité et le support. Le produit continuera à fonctionner même si vous "
+"annulez immédiatement, mais vous ne bénéficierez plus des mises à jour et du "
+"support après l'expiration de la licence. Vous êtes libre de mettre à niveau/"
+"annuler à tout moment. Le paiement à vie est un paiement unique. Tant que le "
+"produit est maintenu, vous bénéficiez du support et des mises à jour de "
+"sécurité."
+
+#: views/admin/tabs/bundle-and-save/faq.php:23
+msgid "Do you offer refunds?"
+msgstr "Offrez-vous des remboursements ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:24
+msgid ""
+"Yes, if you have an issue that cannot be resolved via our support service "
+"within 14 days from the purchase date, you will be offered a full refund."
+msgstr ""
+"Oui, si vous rencontrez un problème qui ne peut être résolu par notre "
+"service d'assistance dans les 14 jours suivant la date d'achat, vous serez "
+"remboursé intégralement."
+
+#: views/admin/tabs/bundle-and-save/faq.php:27
+msgid "Will my subscription renew automatically?"
+msgstr "Mon abonnement sera-t-il renouvelé automatiquement ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:28
+msgid ""
+"Yes, your subscription will renew automatically every year, until its "
+"cancellation."
+msgstr ""
+"Oui, votre abonnement sera renouvelé automatiquement chaque année, jusqu'à "
+"son annulation."
+
+#: views/admin/tabs/bundle-and-save/faq.php:31
+msgid "Can I use my licence in a development environment?"
+msgstr "Puis-je utiliser ma licence dans un environnement de développement ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:32
+msgid ""
+"Yes. Most development environments will not count towards your site limit."
+msgstr ""
+"Oui. La plupart des environnements de développement ne seront pas pris en "
+"compte dans la limite de votre site."
+
+#: views/admin/tabs/bundle-and-save/faq.php:35
+msgid "How do I download the plugins?"
+msgstr "Comment télécharger les plugins ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:36
+msgid ""
+"Once you place your order, you'll be sent an email containing the download "
+"links to all the purchased plugins and themes."
+msgstr ""
+"Une fois votre commande passée, vous recevrez un courriel contenant les "
+"liens de téléchargement de tous les plugins et thèmes achetés."
+
+#: views/admin/tabs/bundle-and-save/faq.php:39
+msgid "How much money am I saving with a Premmerce Suite bundle?"
+msgstr ""
+"Combien d'argent est-ce que j'économise avec une offre groupée de Premmerce "
+"Suite ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:40
+msgid ""
+"You will save at least 70% when you buy a bundle. This percentage is even "
+"higher if you opt to pay annually."
+msgstr ""
+"Vous économisez au moins 70 % lorsque vous achetez un forfait. Ce "
+"pourcentage est encore plus élevé si vous optez pour un paiement annuel."
+
+#: views/admin/tabs/bundle-and-save/faq.php:43
+msgid ""
+"Are there any hidden fees and what do we have to pay for after the project "
+"has been delivered?"
+msgstr ""
+"Y a-t-il des frais cachés et que devons-nous payer après la livraison du "
+"projet ?"
+
+#: views/admin/tabs/bundle-and-save/faq.php:44
+msgid ""
+"There are no hidden or recurring charges to be paid after a project "
+"delivery. However, you need a hosting platform and a domain name for your "
+"website which are usually paid on a regular basis. You can buy them from our "
+"company or elsewhere. The most important thing is that your hosting platform "
+"must adhere to our software minimal requirements."
+msgstr ""
+"Il n'y a pas de frais cachés ou récurrents à payer après la livraison d'un "
+"projet. Cependant, vous avez besoin d'une plateforme d'hébergement et d'un "
+"nom de domaine pour votre site web, qui sont généralement payés de manière "
+"régulière. Vous pouvez les acheter auprès de notre société ou ailleurs. La "
+"chose la plus importante est que votre plateforme d'hébergement doit "
+"respecter les exigences minimales de notre logiciel."
+
+#: views/admin/tabs/bundle-and-save/faq.php:53
+msgid ""
+"If you have any further questions, don’t hesitate to ask us via the online "
+"chat or by e-mail"
+msgstr ""
+"Si vous avez d'autres questions, n'hésitez pas à nous les poser via le chat "
+"en ligne ou par e-mail"
+
+#: views/admin/tabs/bundle-and-save/featured-in.php:37
+msgid "Featured in"
+msgstr "En vedette dans"
+
+#: views/admin/tabs/bundle-and-save/pricing.php:87
+msgid "Buy now"
+msgstr "Acheter maintenant"
+
+#: views/admin/tabs/bundle-and-save/pricing.php:106
+msgid "Annual"
+msgstr "Annuel"
+
+#: views/admin/tabs/bundle-and-save/pricing.php:109
+msgid "Lifetime"
+msgstr "À vie"
+
+#: views/admin/tabs/bundle-and-save/testimonials.php:8
+msgid ""
+"Great, free, useful plugin if you want your category link to be yourURL/"
+"category name and product link to be yourURL/product-name. Even skips parent "
+"category names. Thank you so much!"
+msgstr ""
+"Plugin génial, gratuit et utile si vous voulez que votre lien de catégorie "
+"soit votreURL/nom de catégorie et que le lien de produit soit votreURL/nom "
+"de produit. Il ignore même les noms des catégories parentes. Merci beaucoup !"
+
+#: views/admin/tabs/bundle-and-save/testimonials.php:13
+msgid ""
+"THi All, We us this plugin for a big website we run. This plugin works with "
+"the famous WPML plugin. It’s removes the Product category base and the shop "
+"link in a Multilingual website. Must have for all WooCommerce users!!! "
+"Regards from a satisfied user."
+msgstr ""
+"Salut tout le monde, Nous utilisons ce plugin pour un grand site web que "
+"nous gérons. Ce plugin fonctionne avec le célèbre plugin WPML. Il supprime "
+"la base de la catégorie de produit et le lien de la boutique dans un site "
+"multilingue. Un must pour tous les utilisateurs de WooCommerce ! !! "
+"Salutations d'un utilisateur satisfait."
+
+#: views/admin/tabs/bundle-and-save/testimonials.php:18
+msgid ""
+"The Premmerce Filter is BY FAR the best product filter plugin available for "
+"WordPress. It works well out of the box with a great layout. It’s something "
+"that you would think would be so simple, but finding a great product filter "
+"tool sure wasn’t easy. Really love how well it integrates with the Premmerce "
+"Brands plugin as well. Thanks!!"
+msgstr ""
+"The Premmerce Filter est de loin le meilleur plugin de filtre de produits "
+"disponible pour WordPress. Il fonctionne bien en dehors de la boîte avec une "
+"grande mise en page. C'est quelque chose que l'on pourrait penser être si "
+"simple, mais trouver un excellent outil de filtrage de produits n'a pas été "
+"facile. J'aime beaucoup la façon dont il s'intègre avec le plugin Premmerce "
+"Brands. Merci !"
+
+#: views/admin/tabs/bundle-and-save/testimonials.php:28
+msgid "What clients say about Premmerce"
+msgstr "Ce que les clients disent de Premmerce"
+
+#: views/admin/tabs/bundle-and-save/texts.php:9
+msgid "Permalink Manager Plugin"
+msgstr "Plugin Permalink Manager"
+
+#: views/admin/tabs/bundle-and-save/texts.php:10
+msgid ""
+"Allows you to configure URL generation strategy for your WooCommerce based "
+"store. Removing /product-category base from URL. Able to generate a product "
+"category URL in such a way that only its slug can be seen, removing all the "
+"prefixes from URL, leaving just the category or product name, and automatic "
+"adds of the ‘rel=canonical’ attribute to duplicate pages for SEO ranking "
+"improving."
+msgstr ""
+"Permet de configurer la stratégie de génération d'URL pour votre boutique "
+"basée sur WooCommerce. Suppression de la base /product-category de l'URL. "
+"Capable de générer une URL de catégorie de produit de telle sorte que seul "
+"son slug puisse être vu, en supprimant tous les préfixes de l'URL, ne "
+"laissant que le nom de la catégorie ou du produit, et en ajoutant "
+"automatiquement l'attribut 'rel=canonical' aux pages dupliquées pour "
+"améliorer le classement SEO."
+
+#: views/admin/tabs/bundle-and-save/texts.php:16
+msgid "Product Filter Plugin"
+msgstr "Product Filter Plugin"
+
+#: views/admin/tabs/bundle-and-save/texts.php:17
+msgid ""
+"Is a convenient and flexible tool for managing filters for WooCommerce "
+"products. Among the main features of this plugin there is a single widget "
+"that manages the display of all available filters. Comparing to the standard "
+"WooCommerce filters, Premmerce WooCommerce Product Filter has a well thought "
+"out caching system for the load speed improving."
+msgstr ""
+"Est un outil pratique et flexible pour gérer les filtres pour les produits "
+"WooCommerce. Parmi les principales fonctionnalités de ce plugin, il y a un "
+"widget unique qui gère l'affichage de tous les filtres disponibles. Par "
+"rapport aux filtres standard de WooCommerce, Premmerce WooCommerce Product "
+"Filter a un système de cache bien pensé pour améliorer la vitesse de "
+"chargement."
+
+#: views/admin/tabs/bundle-and-save/texts.php:23
+msgid "Variation Swatches Plugin"
+msgstr "Variation Swatches Plugin"
+
+#: views/admin/tabs/bundle-and-save/texts.php:24
+msgid ""
+"Flexibly extends standard features of the WooCommerce attributes and "
+"variations.The ability to highlight the main attributes and display them on "
+"the product category page and possibility to add a description to the "
+"attribute. The ability to add a product variation to the cart directly on "
+"the product category page."
+msgstr ""
+"La possibilité de mettre en évidence les principaux attributs et de les "
+"afficher sur la page de la catégorie du produit et la possibilité d'ajouter "
+"une description à l'attribut. La possibilité d'ajouter une variation de "
+"produit au panier directement sur la page de la catégorie de produit."
+
+#: views/admin/tabs/bundle-and-save/texts.php:30
+msgid "Product Search Plugin"
+msgstr "Product Search Plugin"
+
+#: views/admin/tabs/bundle-and-save/texts.php:31
+msgid ""
+"Makes the WooCommerce product search more flexible and efficient and gives "
+"the additional search results due to the spell correction. With the help of "
+"this plugin, the products search results within your store will be as "
+"relevant as possible for your potential customers. With our plugin, you no "
+"longer have to create the databases of synonyms and duplicate the words with "
+"common mistakes in the product name or its description."
+msgstr ""
+"Rend la recherche de produits WooCommerce plus flexible et efficace et donne "
+"les résultats de recherche supplémentaires en raison de la correction "
+"orthographique. Avec l'aide de ce plugin, les résultats de recherche de "
+"produits dans votre boutique seront aussi pertinents que possible pour vos "
+"clients potentiels. Avec notre plugin, vous n'avez plus à créer les bases de "
+"données de synonymes et à dupliquer les mots comportant des erreurs "
+"courantes dans le nom du produit ou sa description."
+
+#: views/admin/tabs/bundle-and-save/texts.php:43
+#, php-format
+msgid ""
+"The Premmerce bundle consists of interchangeably combined plugins to\n"
+"                    ensure you’re getting the whole package. Each one of our "
+"most popular plugins performs smoothly on\n"
+"                    its own and works wonders when paired with the other "
+"ones. From “clean” links and well-thought-out\n"
+"                    filter widgets to displaying the product variation data "
+"right on the category page and actualizing\n"
+"                    search results, we’ve got you covered. All of it and "
+"everything in between (bulk-generated landing\n"
+"                    pages and spell correction, to name just a few) makes up "
+"for the full-fledged toolkit for high SEO\n"
+"                    rankings, advanced search and filter management in "
+"categories. And you can transform your online\n"
+"                    shop for more than 50% less compared to acquiring the "
+"plugins separately."
+msgstr ""
+"L'ensemble Premmerce se compose de plugins combinés de manière "
+"interchangeable pour\n"
+"                    pour vous assurer que vous bénéficiez de tous les "
+"avantages. Chacun de nos plugins les plus populaires fonctionne parfaitement "
+"sur\n"
+"                    et fait des merveilles lorsqu'il est associé à d'autres. "
+"Des liens \"propres\" et bien pensés à l'utilisation de l'Internet.\n"
+"                    pour afficher les données de variation des produits "
+"directement sur la page de la catégorie et actualiser les données de "
+"variation des produits.\n"
+"                    résultats de recherche, nous avons tout ce qu'il faut. "
+"Tout cela et tout ce qui se trouve entre les deux (atterrissage généré en "
+"vrac\n"
+"                    et la correction orthographique, pour n'en citer que "
+"quelques-uns) compensent la panoplie complète d'outils pour un référencement "
+"élevé.\n"
+"                    les classements, la recherche avancée et la gestion des "
+"filtres dans les catégories. Et vous pouvez transformer vos\n"
+"                    pour plus de 50% de réduction par rapport à "
+"l'acquisition des plugins séparément."
+
+#: views/admin/tabs/bundle-and-save/texts.php:70
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: views/admin/tabs/bundle-and-save/thanks.php:14
+msgid "to our"
+msgstr "à notre"
+
+#: views/admin/tabs/bundle-and-save/thanks.php:16
+msgid "active users for 5 star"
+msgstr "utilisateurs actifs pour 5 étoiles"
+
+#: views/admin/tabs/bundle-and-save/thanks.php:24
+msgid "reviews on"
+msgstr "critiques sur"
+
+#: views/admin/tabs/cache.php:15
+msgid "Clear cache"
+msgstr "Effacer le cache"
+
+#: views/admin/tabs/seo.php:27
+msgid "Generate Rules"
+msgstr "Générer des Règles"
+
+#: views/admin/tabs/seo.php:30
+msgid "Update paths"
+msgstr "Chemins de mise à jour"
+
+#: views/frontend/active_filters.php:34
+msgid "Remove filter"
+msgstr "Supprimer le filtre"
+
+#: views/frontend/types/select.php:6
+#, php-format
+msgid "Any %s"
+msgstr "Tout %s"

@@ -1,0 +1,70 @@
+.premmerce-widget-row {
+    display: flex;
+    align-items: center;
+}
+
+.premmerce-widget-column {
+    flex: 50%;
+}
+
+.premmerce-widget-column:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.premmerce-widget-column label {
+    width: 80%;
+}
+
+.premmerce-widget-filter-titles button,
+.premmerce-widget-filter-terms button {
+    margin: 0 !important;
+}
+
+.premmerce-widget-filter-fields {
+    position: relative;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    margin-bottom: 15px;
+}
+
+.premmerce-widget-filter-fields p {
+    margin: 5px 0;
+}
+
+.premmerce-widget-heading {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.premmerce-widget-number-input {
+    width: 110px;
+}
+
+.premmerce-widget,
+.premmerce-widget-premium {
+    padding: 5px;
+}
+
+.border-dashed {
+    border: 1px dashed #000;
+}
+
+.premmerce-widget-premium {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 12;
+}
+
+.premmerce-widget-filter-fields.free button.wp-color-result {
+    color: #a7aaad!important;
+    border-color: #dcdcde!important;
+    background: #f6f7f7!important;
+    box-shadow: none!important;
+    cursor: default;
+    transform: none!important;
+}
+
+.premmerce-widget-filter-fields.free .premmerce-widget-heading {
+    opacity: 0.7;
+}
