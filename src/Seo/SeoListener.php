@@ -225,14 +225,15 @@ class SeoListener
 
         //meta descriptions
         add_action('wp_head', array($this, 'addMetaDescription'), 1);
-        add_filter('wpseo_title', array($this, 'addMetaDescriptionYoast'), 10000);
-        add_filter('wpseo_opengraph_title', array($this, 'addMetaDescriptionYoast'), 10000);
+        add_filter('wpseo_title', array($this, 'documentTitle'), 10000);
+        add_filter('wpseo_opengraph_title', array($this, 'documentTitle'), 10000);
         add_filter('wpseo_metadesc', array($this, 'addMetaDescriptionYoast'), 10000);
         add_filter('wpseo_opengraph_desc', array($this, 'addMetaDescriptionYoast'), 10000);
         add_filter('rank_math/frontend/description', array($this, 'addMetaDescriptionRankMath'));
 
         remove_action('woocommerce_archive_description', 'woocommerce_taxonomy_archive_description', 10);
         add_action('woocommerce_archive_description', array($this, 'addDescription'), 20);
+        add_action('custom_archive_description', array($this, 'addDescription'), 20);
     }
 
     /**
@@ -241,9 +242,20 @@ class SeoListener
     public function addDescription()
     {
         $description = $this->parseVariables($this->rule['description']);
+        $title = $this->parseVariables($this->rule['h1']);
+        $seo_block			= get_field('shop_seo_block', 'options');
 
         if ($description) {
-            printf('<div class="term-description">%s</div>', wp_kses_post(wc_format_content($description)));
+            $text_woo 			= get_field('woocommerce', 'options');
+            get_template_part('woocommerce/single-product/block', 'seo', [
+                'seo_block' => [
+                    'pretitle' => $seo_block['pretitle'],
+                    'title' => $title,
+                    'text' => wc_format_content($description),
+                ],
+                'text_woo'  => $text_woo
+            ]);
+            // printf('<div class="term-description">%s</div>', wp_kses_post(wc_format_content($description)));
         }
     }
 
@@ -264,7 +276,8 @@ class SeoListener
      */
     public function addMetaDescriptionYoast($description)
     {
-        return $this->escape($this->parseVariables($this->rule['meta_description']));
+        $desc = $this->escape($this->parseVariables($this->rule['meta_description']));
+        return $desc ?: $description;
     }
 
     /**
@@ -336,10 +349,11 @@ class SeoListener
      * Replace document title
      *
      * @return string
-     */
-    public function documentTitle()
+     */ 
+    public function documentTitle($title)
     {
-        return $this->escape($this->parseVariables($this->rule['title']));
+        $new_title = $this->escape($this->parseVariables($this->rule['title']));
+        return $new_title ?: $title;
     }
 
     /**
