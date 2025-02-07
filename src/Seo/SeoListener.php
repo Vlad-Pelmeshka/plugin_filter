@@ -224,14 +224,20 @@ class SeoListener
         }
 
         //meta descriptions
-        add_action('wp_head', array($this, 'addMetaDescription'), 1);
-        add_filter('wpseo_title', array($this, 'documentTitle'), 10000);
-        add_filter('wpseo_opengraph_title', array($this, 'documentTitle'), 10000);
-        add_filter('wpseo_metadesc', array($this, 'addMetaDescriptionYoast'), 10000);
-        add_filter('wpseo_opengraph_desc', array($this, 'addMetaDescriptionYoast'), 10000);
-        add_filter('rank_math/frontend/description', array($this, 'addMetaDescriptionRankMath'));
 
-        remove_action('woocommerce_archive_description', 'woocommerce_taxonomy_archive_description', 10);
+        if($this->rule['title']){
+            add_filter('wpseo_title', array($this, 'documentTitle'), 10000);
+            add_filter('wpseo_opengraph_title', array($this, 'documentTitle'), 10000);
+        }
+
+        if($this->rule['meta_description']){
+            add_action('wp_head', array($this, 'addMetaDescription'), 1);
+            add_filter('wpseo_metadesc', array($this, 'addMetaDescriptionYoast'), 10000);
+            add_filter('wpseo_opengraph_desc', array($this, 'addMetaDescriptionYoast'), 10000);
+            add_filter('rank_math/frontend/description', array($this, 'addMetaDescriptionRankMath'));
+        }
+
+        // remove_action('woocommerce_archive_description', 'woocommerce_taxonomy_archive_description', 10);
         add_action('woocommerce_archive_description', array($this, 'addDescription'), 20);
         add_action('custom_archive_description', array($this, 'addDescription'), 20);
     }
